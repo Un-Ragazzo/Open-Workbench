@@ -1,12 +1,18 @@
 # Open-workbench
 
-Public, runnable experiments, UI prototypes, demos, and code samples.
+Compatibility hosting for the existing email signature generator's GitHub Pages URL. New public case studies, demos, and source changes belong in [Portfolio](https://github.com/Un-Ragazzo/Case-studies), currently using the GitHub repository name `Case-studies` while its rename is pending.
 
-## Publication rule
+## Existing public output
 
-- Private work originates in the relevant private workspace.
-- Publish here only after removing private, company, client, credential, and internal-context information.
-- Treat this repository as a downstream public output, not the upstream working copy.
-- Do not sync changes from here back into a private workspace automatically.
+[Email signature generator](email-signature/index.html) remains at `email-signature/`, with its existing HTML and `.nojekyll` preserved.
 
-For narrative case studies that explain the problem, process, decisions, and results, use `Case-studies` instead.
+GitHub Pages is enabled on this repository. Keep the repository name and published file paths while the old URL is needed: GitHub Pages project URLs do not automatically redirect when a repository is renamed.
+
+## Source and maintenance
+
+- Portfolio imports this repository's existing public Git history and maintains the generator under `demos/email-signature/`.
+- Keep this repository for the established Pages address. Deliberately update its compatibility copy when publishing a generator change to that address.
+- Private work originates in the relevant private workspace. Publish only reviewed public material without private, company, client, credential, or internal-context information.
+- Do not automatically sync public changes back into private workspaces.
+
+The source consolidation does not verify or change GitHub Pages settings, a custom domain, or the current live deployment. Check those separately before changing hosting.
